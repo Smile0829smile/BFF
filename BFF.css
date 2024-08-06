@@ -1,0 +1,108 @@
+html{
+    font-size: 100%;
+}
+body{
+    text-align: center;
+    background-color: lightblue;
+}
+
+.creator{
+    font-size: x-large;
+}
+
+.textbox{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+}
+.customButtons{
+    border-style: solid;
+    font-size: 30px;
+    color: black;
+    background-color: lightgray;
+    width:180px;
+    height: 45px;
+    text-align:center;
+    margin:auto;
+}
+
+.customButtons:hover{
+    background-color: white;
+    color: black;
+}
+.customButtons1{
+    border-style: solid;
+    font-size: 15px;
+    color: black;
+    background-color: lightcoral;
+    width:180px;
+    height: 45px;
+    text-align:center;
+    margin:auto;
+}
+
+.customButtons1:hover{
+    background-color: white;
+    color: black;
+}
+
+.customButton{
+    border-style: solid;
+    font-size: 19.5px;
+    color: black;
+    background-color: lightgray;
+    width:180px;
+    height: 45px;
+    text-align:center;
+    margin:auto;
+}
+
+.customButton:hover{
+    background-color: white;
+    color: black;
+}
+wonky{
+    background-color: yellow;
+    color:black;
+}
+wonky1{
+    color:red;
+}
+div.a{
+    position: absolute;
+    left: 70%;  
+    bottom: 1%;
+}
+.wrapper-main {
+    width : 1000px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper-main {
+        width : 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .wrapper-main {
+        width : 100%;
+        /*background-color: red;*/
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .wrapper-main {
+        width : 100%;
+        /*background-color: green;*/
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .wrapper-main {
+        width : 100%;
+        /*background-color: purple;*/
+    }
+}
+
