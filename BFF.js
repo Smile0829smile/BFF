@@ -565,7 +565,7 @@ function back(){
     idH2.innerHTML = "<input type='textbox' class='textbox' value='' placeholder='Naiziin Code' id='idFriendCode'>"
     idH2.innerHTML += "<br><br>"
     idH2.innerHTML += "<input type='button' class='customButtons' id='idBtn1' value = 'shalgah' onClick ='getIntoFriend()'><br><br>"
-    idH2.innerHTML += "<input type='button' class='customButtons' id='idBtn2' value = 'herhen ashiglah ve' onClick ='information()'><br>"
+    idH2.innerHTML += "<input type='button' class='customButton' id='idBtn2' value = 'herhen ashiglah ve' onClick ='information()'><br>"
 }
 
 
