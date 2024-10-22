@@ -4,6 +4,9 @@
 console.warn("ANHAAR")
 console.warn("Endees busdiig yu gej boddgiig maani haij baival yg odoo garna uu bayrlalaa.")
 
+console.danger("ANHAAR")
+console.danger("Endees busdiig yu gej boddgiig maani haij baival yg odoo garna uu bayrlalaa.")
+
 var n1 = "Ner:"
 var n2 = "Minii huvid:"
 var n3 = "Helehiig husdeg ug:"
@@ -13,10 +16,10 @@ var n6 = "Zurgiig ni nuutsaar darsan/hadgalj avsan:"
 var n7 = "Chamaig 3 ugeer ilerhiilvel:"
 
 function gettingReady(){
-    idH2.innerHTML = "<input type='textbox' class='textbox' value='' placeholder='Naiziin Code' id='idFriendCode'>"
+    idH2.innerHTML = "<input type='textbox' class='textbox' value='' placeholder='Найзийн код' id='idFriendCode'>"
     idH2.innerHTML += "<br><br>"
-    idH2.innerHTML += "<input type='button' class='customButtons' id='idBtn1' value = 'shalgah' onClick ='getIntoFriend()'><br><br>"
-    idH2.innerHTML += "<input type='button' class='customButton' id='idBtn2' value = 'herhen ashiglah ve' onClick ='information()'><br>"
+    idH2.innerHTML += "<input type='button' class='customButtons' id='idBtn1' value = 'шалгах' onClick ='getIntoFriend()'><br><br>"
+    idH2.innerHTML += "<input type='button' class='customButton' id='idBtn2' value = 'хэрхэн ашиглах вэ?' onClick ='information()'><br>"
 }
 function information(){
     idH2.innerHTML = "Ene dotor ihenh naizuudtaigaa yaj taniltsaj baisan,<br> haana yu hiij yvdag baisan geed bugdiig bichiv."
@@ -49,15 +52,31 @@ function getIntoFriend(){
     //Tegshee
     else if(idFriendCode.value == "nz11tg23gl"){
         // document.body.style.textAlign = "left"
-        idH2.innerHTML = "<wonky>" + n1 + "</wonky> <br>Tegshbileg<br><br>"
-        idH2.innerHTML +="<wonky>" + n2 + "</wonky> <br>Setgeld hursen sanaj yvdag humuusiin neg<br><br>";
-        idH2.innerHTML +="<wonky>" + n3 + "</wonky> <br>Hetsuu uyd hamt baidagt bylla <3<br><br>"
-        idH2.innerHTML +="<wonky>" + n4 + "</wonky> <br>Namaig hamgaalad baihiin goy aashtai ohin ymaa taniltsah ymsan.<br><br>"
-        idH2.innerHTML +="<wonky>" + n5 + "</wonky> <br>Hyadaa gomdoochihson ym shig sanagddag uy bii, herev chamaig gomdooson bol uuchlaarai<br><br>"
-        idH2.innerHTML +="<wonky>" + n6 + "</wonky> <br>Yes hha<br> humuus sain naiziinhaa zuragiig gallery daa hadgaldag geed baisiin hha<br><br>"
-        idH2.innerHTML +="<wonky>" + n7 + "</wonky> <br>Uhaalag, Zorigtoi, Uruwch<br><br>"
-        idH2.innerHTML += "<button class='customButtons1' onClick='myFeedBack()'>Nadaa heleh ug baival dar</button><br><br>"
-        idH2.innerHTML += "<button onClick='back()'>butsah</button>"
+        // idH2.innerHTML = "<wonky>" + n1 + "</wonky> <br>Tegshbileg<br><br>"
+        // idH2.innerHTML +="<wonky>" + n2 + "</wonky> <br>Setgeld hursen sanaj yvdag humuusiin neg<br><br>";
+        // idH2.innerHTML +="<wonky>" + n3 + "</wonky> <br>Hetsuu uyd hamt baidagt bylla <3<br><br>"
+        // idH2.innerHTML +="<wonky>" + n4 + "</wonky> <br>Namaig hamgaalad baihiin goy aashtai ohin ymaa taniltsah ymsan.<br><br>"
+        // idH2.innerHTML +="<wonky>" + n5 + "</wonky> <br>Hyadaa gomdoochihson ym shig sanagddag uy bii, herev chamaig gomdooson bol uuchlaarai<br><br>"
+        // idH2.innerHTML +="<wonky>" + n6 + "</wonky> <br>Yes hha<br> humuus sain naiziinhaa zuragiig gallery daa hadgaldag geed baisiin hha<br><br>"
+        // idH2.innerHTML +="<wonky>" + n7 + "</wonky> <br>Uhaalag, Zorigtoi, Uruwch<br><br>"
+        // idH2.innerHTML += "<button class='customButtons1' onClick='myFeedBack()'>Nadaa heleh ug baival dar</button><br><br>"
+        // idH2.innerHTML += "<button onClick='back()'>butsah</button>"
+
+        document.body.style.backgroundColor = "pink"
+        idH2.innerHTML = "<h1>Бро уучлаарай</h1><hr width='40%'>"
+        idH2.innerHTML += "<h2 class='uuchlaarai'>Намайг аа уучлаарай.<br>"
+        idH2.innerHTML += "Хөөрхий тархи минь дэндүү их ачаалалаар <br>"
+        idH2.innerHTML += "дүүрч одоо бүүр андынхаа төрсөн өдрийг<br>"
+        idH2.innerHTML += "мартсан байна.</h2>"
+
+        idH2.innerHTML += "<h2>Энэхүү бичлэгийг чамд зориулав.</h2>"
+        idH2.innerHTML += "<video width='80%' controls><source src='TegsheeBirthday.mp4' type='video/mp4'></video>"
+        
+        idH3.innerHTML = "";
+
+        idH2.innerHTML += "<br><br><button onClick='zurh()'>💗</button>"
+
+        idH2.innerHTML += "<br><br><button onClick='back()'>butsah</button>"
     }
 
     //Tsoomoo
@@ -568,4 +587,7 @@ function back(){
     idH2.innerHTML += "<input type='button' class='customButton' id='idBtn2' value = 'herhen ashiglah ve' onClick ='information()'><br>"
 }
 
+function zurh(){
+    window.open("https://www.youtube.com/watch?v=5u4xTa3LR2U")
+}
 
