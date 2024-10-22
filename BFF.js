@@ -4,9 +4,6 @@
 console.warn("ANHAAR")
 console.warn("Endees busdiig yu gej boddgiig maani haij baival yg odoo garna uu bayrlalaa.")
 
-console.danger("ANHAAR")
-console.danger("Endees busdiig yu gej boddgiig maani haij baival yg odoo garna uu bayrlalaa.")
-
 var n1 = "Ner:"
 var n2 = "Minii huvid:"
 var n3 = "Helehiig husdeg ug:"
