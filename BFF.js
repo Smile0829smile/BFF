@@ -48,7 +48,7 @@ function getIntoFriend(){
 
     //Tegshee
     else if(idFriendCode.value == "nz11tg23gl"){
-        document.body.style.textAlign = "left"
+        // document.body.style.textAlign = "left"
         idH2.innerHTML = "<wonky>" + n1 + "</wonky> <br>Tegshbileg<br><br>"
         idH2.innerHTML +="<wonky>" + n2 + "</wonky> <br>Setgeld hursen sanaj yvdag humuusiin neg<br><br>";
         idH2.innerHTML +="<wonky>" + n3 + "</wonky> <br>Hetsuu uyd hamt baidagt bylla <3<br><br>"
